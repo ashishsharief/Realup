@@ -119,7 +119,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800">Email Us</h4>
-                    <p className="text-gray-600">hello@realup.com</p>
+                    <p className="text-gray-600">contact@realup.com</p>
                     <p className="text-gray-600">support@realup.com</p>
                   </div>
                 </div>
@@ -132,9 +132,9 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="text-lg font-semibold text-gray-800">Visit Us</h4>
-                    <p className="text-gray-600">Startup Innovation Hub</p>
-                    <p className="text-gray-600">Mysore, Karnataka 570001</p>
+                    <h4 className="text-lg font-semibold text-gray-800">Address</h4>
+                    <p className="text-gray-600">Realup Startup Club</p>
+                    <p className="text-gray-600">Mysore, Karnataka 570007</p>
                   </div>
                 </div>
                 
@@ -146,8 +146,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="text-lg font-semibold text-gray-800">Call Us</h4>
-                    <p className="text-gray-600">+91 98765 43210</p>
-                    <p className="text-gray-600">+91 91234 56789</p>
+                    <p className="text-gray-600">+91 7795469375</p>
+                    {/* <p className="text-gray-600">+91 91234 56789</p> */}
                   </div>
                 </div>
               </div>
