@@ -43,7 +43,7 @@ const Hero = () => {
                 variant="hero" 
                 size="xl"
                 className="group relative overflow-hidden"
-                onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => window.open('https://rzp.io/rzp/realup', '_blank')}
               >
                 <span className="relative z-10">Register For The Meet-up</span>
                 <span className="ml-3 group-hover:translate-x-1 transition-transform duration-300 relative z-10">→</span>
@@ -56,7 +56,7 @@ const Hero = () => {
                 className="group"
                 // onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
               >
-                September 13th
+                13th September 2025
                 {/* <ChevronDown className="ml-2 w-4 h-4 group-hover:translate-y-0.5 transition-transform duration-300" /> */}
               </Button>
             </div>
