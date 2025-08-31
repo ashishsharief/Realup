@@ -1,4 +1,5 @@
 import { Instagram, Linkedin, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -85,6 +86,34 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+
+          {/* Legal Links */}
+          <div className="mb-10 pt-8 border-t border-background/20">
+            <h4 className="text-xl font-semibold mb-4">Legal</h4>
+            <div className="flex flex-wrap gap-6">
+              <Link 
+                to="/legal" 
+                onClick={() => window.scrollTo(0, 0)}
+                className="text-background/70 hover:text-background transition-colors text-lg"
+              >
+                Terms and Conditions
+              </Link>
+              <Link 
+                to="/legal#cancellations" 
+                onClick={() => window.scrollTo(0, 0)}
+                className="text-background/70 hover:text-background transition-colors text-lg"
+              >
+                Cancellations and Refunds
+              </Link>
+              <Link 
+                to="/legal#privacy" 
+                onClick={() => window.scrollTo(0, 0)}
+                className="text-background/70 hover:text-background transition-colors text-lg"
+              >
+                Privacy Policy
+              </Link>
             </div>
           </div>
 
