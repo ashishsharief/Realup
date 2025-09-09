@@ -43,7 +43,7 @@ const Hero = () => {
                 variant="hero" 
                 size="xl"
                 className="group relative overflow-hidden"
-                onClick={() => window.open('https://rzp.io/rzp/realup', '_blank')}
+                onClick={() => window.open('https://pages.razorpay.com/realupclub', '_blank')}
               >
                 <span className="relative z-10">Register For The Meet-up</span>
                 <span className="ml-3 group-hover:translate-x-1 transition-transform duration-300 relative z-10">→</span>
