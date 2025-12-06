@@ -1,6 +1,6 @@
 const About = () => {
   return (
-    <section id="about" className="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-gray-100">
+    <section id="about" className="py-1 md:py-14 bg-gradient-to-br from-gray-50 to-gray-100">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-6xl mx-auto">
           {/* Modern Section Header */}

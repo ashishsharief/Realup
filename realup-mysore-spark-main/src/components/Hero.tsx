@@ -12,7 +12,7 @@ const Hero = () => {
         <div className="absolute bottom-1/4 right-1/4 w-80 h-80 bg-brand-red/3 rounded-full blur-3xl animate-float" style={{ animationDelay: '3s' }}></div>
       </div>
 
-      <div className="container mx-auto px-6 py-32 relative z-10">
+      <div className="container mx-auto px-6 py-12 relative z-10">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left Column - Content */}
           <div className="text-center lg:text-left space-y-10 animate-slide-in-left">
@@ -43,22 +43,14 @@ const Hero = () => {
                 variant="hero" 
                 size="xl"
                 className="group relative overflow-hidden"
-                onClick={() => window.open('https://pages.razorpay.com/realupclub', '_blank')}
+                onClick={() => window.open('https://chat.whatsapp.com/D2OJlfkDWgWJJIohRzf276', '_blank')}
               >
-                <span className="relative z-10">Register For The Meet-up</span>
+                <span className="relative z-10">Join The Community</span>
                 <span className="ml-3 group-hover:translate-x-1 transition-transform duration-300 relative z-10">→</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-brand-red-hover to-brand-red opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </Button>
               
-              <Button 
-                variant="glass" 
-                size="xl"
-                className="group"
-                // onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-              >
-                13th September 2025
-                {/* <ChevronDown className="ml-2 w-4 h-4 group-hover:translate-y-0.5 transition-transform duration-300" /> */}
-              </Button>
+              
             </div>
 
             {/* Trust Indicators */}

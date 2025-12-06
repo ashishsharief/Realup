@@ -71,14 +71,15 @@ const Footer = () => {
                 <h4 className="text-2xl font-semibold">Follow Us</h4>
                 <div className="flex space-x-4">
                   <a 
-                    href="#" 
+                    href="https://www.instagram.com/realup_club/"
                     aria-label="Instagram"
                     className="flex items-center justify-center w-12 h-12 bg-background/10 rounded-2xl hover:bg-background/20 transition-colors"
+                    
                   >
                     <Instagram className="w-6 h-6" />
                   </a>
                   <a 
-                    href="#" 
+                    href="https://www.linkedin.com/company/realup-startup-club/?viewAsMember=true"
                     aria-label="LinkedIn"
                     className="flex items-center justify-center w-12 h-12 bg-background/10 rounded-2xl hover:bg-background/20 transition-colors"
                   >
